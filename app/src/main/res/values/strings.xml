@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Health Center</string>
+    <string name="changeExplain">Here you can change your password, your height and your weight. To save the changes, press on the change button.</string>
+    <string name="caloriesExplain">"Calories: Calorie is the sum of energy that needed to heat 1 mm of water at 1 celsius. "
+        "Our body work on calories. Every activity that we do needed some of calories."
+        "Calories is like gas to our body. We get calories from the food we eat. Every Food has some"
+        "of calories that if you ate this food you get those calories. But what happen if we don't use all of the calories that"
+        "we ate? Our body make this extra calories to fat. So, if someone want to add some weight to his body,"
+        "he should ate more calories then he bern. And what happen if we ate less calories then we bern? our"
+        "body will use the fat that we have and bern it instead. So, if someone want to lower some weight to his body,"
+        "he should ate less calories then he bern. The average man bern 2,000,000 calories at day. Because that"
+        "number is very big, we don't use calories, but kilo-calories, that equal to 1000 calories. But"
+        "still most of the people say calories, because it more comfortable."</string>
+    <string name="proteinExplain">"Protein: Proteins are the material of our muscles. Our body use protein to rebuild our muscles after we train."
+        "during training our muscles destroyed, and when our body rebuilt them, they became larger and stronger (and that how our muscles get bigger and stronger from training to training)"
+        "Because of that, our body must get enough protein - to build our muscles again! person that train need to get 1.7-2 times his weight proteins at day (at grams). For example, if a man is"
+        "weight 80 kg, he need to eat at least 140 grams of proteins at day. Moreover, proteins are very satisfactory, so it better it proteins then carbohydrates for a person that want to lose weight."
+        "Because proteins have less calories then carbohydrates - so he will eat less calories for the same mass of food. Proteins have 4 calories per gram".</string>
+</resources>

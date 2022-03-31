@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuFood"
+        android:orderInCategory="100"
+        android:title="Move To Your Food List"
+        />
+    <item
+        android:id="@+id/menuExplain"
+        android:orderInCategory="200"
+        android:title="Explain Page"
+        />
+    <item
+        android:id="@+id/changeInfo"
+        android:orderInCategory="200"
+        android:title="Change Information"
+        />
+    <item
+    android:id="@+id/menuExitApp"
+    android:orderInCategory="300"
+    android:title="Exit From Application"
+    />
+
+
+</menu>

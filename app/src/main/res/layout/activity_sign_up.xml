@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@color/black"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your user name"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_weight="5"
+            />
+        <EditText
+            android:id="@+id/userNameSign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Enter User Name"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:background="@color/teal_200"
+            android:layout_weight="5"
+            />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20dp"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your password"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_weight="5"
+            />
+        <EditText
+            android:id="@+id/passwordSign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Enter password"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:background="@color/teal_200"
+            android:layout_weight="5"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="20dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your Height"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_weight="5"
+            />
+        <EditText
+            android:id="@+id/heighSign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Enter your high"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:background="@color/teal_200"
+            android:layout_weight="5"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="20dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your weight"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_weight="5"
+            />
+        <EditText
+            android:id="@+id/weightSign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Enter your weight "
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:background="@color/teal_200"
+            android:layout_weight="5"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="50dp"
+        />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up now"
+        android:textSize="40dp"
+        android:onClick="signUpNextPage"
+    />
+
+
+
+
+
+</LinearLayout>
